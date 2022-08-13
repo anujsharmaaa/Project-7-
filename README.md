@@ -4,4 +4,4 @@
 
 #### LIVE LINK 
 
-https://project6-ineuronai.netlify.app
+https://project7-ineuronai.netlify.app
