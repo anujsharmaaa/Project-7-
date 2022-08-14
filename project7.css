@@ -4,6 +4,32 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 95.5%;
+}
+
+
+
+
+
+/* header responsive code  */
+  @media(max-width:998px) {
+    html{
+        font-size: 55%;
+    }
+
+    
+}
+
+@media(max-width:75px) {
+    html {
+        font-size: 45%;
+    }
+  }
+
+
+
+
 body {
     font-family: "Poppins";
     max-width: 80rem;
@@ -24,14 +50,14 @@ nav{
 }
 
 nav img{
-    width: 110px;
+    width: 6.8rem;
     display: block;
     /* margin-top: 20px; */
 }
 
 nav .nav-items{
 display: flex;
-gap: 50px;
+gap: 3.1rem;
 align-items: center;
 font-size: 1.2rem;
 /* margin-top: 5px; */
@@ -39,7 +65,7 @@ font-size: 1.2rem;
 
 nav .nav-item{
     display: flex;
-    gap: 50px;
+    gap: 3.1rem;
 }
 
 
@@ -50,7 +76,7 @@ nav .nav-items .active-item{
 }
 
 nav img:last-child{
-    width: 200px;
+    width: 12.5rem;
 }
 
 .intro-section{
@@ -62,19 +88,19 @@ nav img:last-child{
 }
 
 .left-section{
-    max-width: 700px;
+    max-width:  43.75rem;
     /* padding-bottom: 14rem; */
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .left-section h3 {
     font-size: 2rem;
-    margin-bottom: 10px;
+    margin-bottom: 0.6rem;
 }
 
 .left-section h3 img{
-    width: 40px;
-    margin-left: 10px;
+    width: 2.5rem;
+    margin-left: 0.6rem;
 }
 
 .left-section h1{
@@ -86,8 +112,8 @@ nav img:last-child{
 .left-section .sub-headlines {
     margin-left: 5rem;
     font-size: 1.4rem;
-    margin-right: 80px;
-    margin-top: 40px;
+    margin-right: 5rem;
+    margin-top: 2.5rem;
 }
 
 .left-section .sub-headline {
@@ -98,40 +124,40 @@ nav img:last-child{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 0.6rem;
 }
 
 .left-section .sub-headlines h5 img{
     position: relative;
     background-color: coral;
-    border-radius: 90px;
-    padding: 5px;
-    margin-right: 15px;
+    border-radius: 5.6rem;
+    padding: 0.3rem;
+    margin-right: 0.9rem;
     cursor: pointer;
 }
 
 .left-section .text{
-    font-size: 14px;
+    font-size: 0.8rem;
     color: black;
-    margin-top: 60px;
+    margin-top: 3.7rem
 }
 
 .left-section .action-btns{
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .left-section .action-btn{
     background-color: coral;
     border: none;
-    padding: 16px 34px ;
-    border-radius: 50px;
+    padding: 1rem 2.1rem ;
+    border-radius: 3.1rem;
     color: aliceblue;
-    font-size: 17px;
+    font-size: 1rem;
     cursor: pointer;
 }
 
 .left-section .action-btn:not(:last-child){
-    margin-right: 20px;
+    margin-right: 1.2rem;
 }
 
 .right-section {
@@ -141,7 +167,7 @@ nav img:last-child{
 }
 .headphone-div {
     position: relative;
-    width: 570px;
+    width: 35.6rem;
 }
 .headphone-div .discount-content {
     position: absolute;
@@ -151,26 +177,26 @@ nav img:last-child{
 }
 .headphone-div img:first-child {
     position: absolute;
-    width: 120px;
-    top: 200px;
-    left: 40px;
+    width: 14.3rem;
+    top: 12.5rem;
+    left: 2.5rem;
 }
 .headphone-div img:last-child {
-    width: 420px;
+    width: 26.25rem;
     position: relative;
     z-index: -1;
-    top: -20px;
-    left: 80px;
+    top: -1.2rem;
+    left:  5rem;
 }
 .right-section .dots {
     display: flex;
-    gap: 20px;
-    margin-top: -20px;
+    gap: 1.2rem;
+    margin-top: -1.25rem;
 }
 .right-section .dots .dot {
-    height: 26px;
-    width: 26px;
-    border-radius: 50px;
+    height: 1.6rem;
+    width: 1.6rem;
+    border-radius: 3.1rem;
 }
 
 
@@ -196,10 +222,10 @@ color: coral;
 .right-section .action-btn {
     background-color: #fe6139;
     border: none;
-    padding: 16px 34px;
-    border-radius: 50px;
+    padding: 1rem 2.1rem;
+    border-radius: 3.1rem;
     color: #FFF;
-    font-size: 17px;
-    margin-top: 48px;   
+    font-size: 1rem;
+    margin-top: 3rem;   
     cursor: pointer;
 }
