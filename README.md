@@ -1,11 +1,41 @@
-<<<<<<< HEAD
-"# Project-7-"  
-=======
-# PROJECT 7
+
+## PROJECT HEADING
+
+![](https://img.shields.io/badge/LIVE%20PROJECT%207-WIRELSSHEADPHONE%20WEB%20PAGE-blue)
+
+![](https://img.shields.io/badge/TECH%20STACK-HTML%20%7C%20CSS-important)
+
+![](https://img.shields.io/badge/PROJECT%20OWNER-ANUJ%20SHARMA-blueviolet)
+
+![](https://img.shields.io/badge/SPECIAL%20THANKS-HITESH%20CHOUDHARY%20SIR%20%20%7C%20iNeuron.ai%20TEAM-ff69b4)
+
+
+&nbsp;
+***
+## Live Project 7 
 
 
 
-#### LIVE LINK 
+# Project 7  - Wireless Headphone Web Page
 
+
+# Project Details 
+
+This project is part of the Full Stack Javascript Web Developer Bootcamp taught and curated by Hitesh Choudhary Sir and the wonderful team of iNeuron.
+And Also Thnakyou iNeuron For Give Us Such Like Opportunity.
+
+
+## Live Link
 https://project7-ineuronai.netlify.app
->>>>>>> b4a558c66c183fd7d5349155de5e4eaa929c5258
+
+
+## Features
+
+- Live previews
+- Fullscreen mode
+- Cross platform
+
+
+## 🛠 Skills
+HTML, CSS...
+
